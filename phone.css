@@ -1,0 +1,108 @@
+/* Navigation section */
+body{
+    background-color: gold;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 6px 2px;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar .list{
+    padding: 0px 1px;
+   font-size: 14px;
+}
+/* Home Section */
+#home {
+    height: 350px;
+    /* flex-direction: column; */
+}
+#home::before {
+    height: 520px;
+    flex-direction: column;
+}
+
+.head-p{
+    flex-direction: column;
+    font-size: 24px;
+    /* overflow: hidden; */
+}
+#home p{
+    font-size: 13px;
+}
+/* Services Section */
+#services {
+    flex-direction: column;
+    font-size: 13px;
+    overflow: hidden;
+    width: 80vw;
+
+}
+
+    /* #Services-container h1{
+    overflow: hidden;
+    flex-direction: column;
+}  */
+
+/* Chef Section */
+#chef-section{
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+#chef {
+    overflow: hidden;
+    flex-direction: column;
+    font-size: 13px;
+    
+    width: 80vw;
+
+}
+#chef::before{
+    /* overflow: hidden; */
+    height:1900px;
+}
+.chef-item{
+    overflow: hidden;
+    /* height: 50px; */
+   
+    
+}
+/* .chef-item p{
+    overflow: hidden;
+    margin: 20px 20px;
+    padding: 40px;
+   
+    
+} */
+
+/* About Section */
+
+#about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-inner {
+    flex-direction: column;
+  }
+
+  .about-right {
+    padding: 0;
+    order: 1;
+  }
+
+  .about-left {
+    padding: 0;
+    order: 2;
+  }
+  .about-left img{
+    width: 80vw;
+  }
+
+
+/* Contact Section */
+
+/* Footer Section */
